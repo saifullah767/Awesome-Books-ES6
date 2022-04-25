@@ -19,5 +19,8 @@
   "homepage": "https://github.com/saifullah767/Awesome-Books-ES6#readme",
   "dependencies": {
     "luxon": "^2.3.2"
+  },
+  "devDependencies": {
+    "@types/luxon": "^2.3.1"
   }
 }
