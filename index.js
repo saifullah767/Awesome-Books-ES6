@@ -19,9 +19,7 @@ window.onbeforeunload = () => {
   displayBooks(library);
 };
 
-const currentTime = DateTime.now().toLocaleString(
-  DateTime.DATETIME_FULL_WITH_SECONDS
-);
+const currentTime = DateTime.now().toLocaleString(DateTime.DATETIME_FULL_WITH_SECONDS);
 document.getElementById('date').innerHTML = currentTime;
 
 window.onload = displayList;
@@ -34,5 +32,5 @@ getStorageData(library);
 displayBooks(library);
 
 Listli.addEventListener('click', displayList);
-Addli.addEventListener('click',  displayAdd);
-Contactli.addEventListener('click',displayContact);
+Addli.addEventListener('click', displayAdd);
+Contactli.addEventListener('click', displayContact);

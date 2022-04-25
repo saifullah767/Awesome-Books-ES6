@@ -4,6 +4,7 @@ export default class Library {
     this.author = Author;
     this.id = ID;
   }
+
   addBook = (bookTitle, bookAuthor, bookID) => {
     const awesomeBook = {
       title: bookTitle,
